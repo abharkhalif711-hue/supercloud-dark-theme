@@ -13,7 +13,8 @@ SuperCloud Dark is an elegant color scheme for Sublime Text with strong contrast
 ---
 
 ## ✨ Screenshot
-*(add a screenshot here — e.g., `screenshot.png`)*
+<img width="1366" height="728" alt="image" src="https://github.com/user-attachments/assets/a35b0f0c-47fc-461e-8eef-4f4812fcd2aa" />
+
 
 ---
 
