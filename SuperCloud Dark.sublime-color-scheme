@@ -51,7 +51,7 @@
       "name": "Tags & XML",
       "scope": "entity.name.tag, support.type.tag, meta.tag, punctuation.definition.tag",
       "foreground": "#E4564A",
-      "font_style": "bold"
+      "font_style": ""
     },
     {
       "name": "Attributes & Property Names",
@@ -84,7 +84,7 @@
       "name": "Markdown headings",
       "scope": "markup.heading.markdown, punctuation.definition.heading.markdown",
       "foreground": "#A726A4",
-      "font_style": "bold"
+      "font_style": ""
     },
     {
       "name": "Markdown bold/strong",
