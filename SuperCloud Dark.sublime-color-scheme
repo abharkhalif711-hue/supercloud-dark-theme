@@ -1,0 +1,100 @@
+{
+  "name": "SuperCloud Dark",
+  "author": "Khalifah",
+  "globals": {
+    "foreground": "#E8E8E8",
+    "background": "#31343D",
+    "caret": "#E4564A",
+    "selection": "#4FA14D33",
+    "selection_border": "#4FA14D55",
+    "line_highlight": "#313843",
+    "inactive_selection": "#31343D55",
+    "guide": "#A4A3A899",
+    "stack_guide": "#A4A3A855",
+    "shadow": "#00000066",
+    "accent": "#A726A4"
+  },
+  "rules": [
+    {
+      "name": "Comments",
+      "scope": "comment, punctuation.definition.comment",
+      "foreground": "#A4A3A8",
+      "font_style": "italic"
+    },
+    {
+      "name": "Keywords & Storage",
+      "scope": "keyword, storage.type, storage.modifier, storage.control",
+      "foreground": "#A726A4",
+      "font_style": "bold"
+    },
+    {
+      "name": "Functions & Methods",
+      "scope": "support.function, entity.name.function, meta.function-call",
+      "foreground": "#C08400"
+    },
+    {
+      "name": "Constants & Numbers",
+      "scope": "constant, constant.language, constant.numeric, constant.character",
+      "foreground": "#A726A4"
+    },
+    {
+      "name": "Strings",
+      "scope": "string, string.quoted, string.template, string.interpolated",
+      "foreground": "#4FA14D"
+    },
+    {
+      "name": "Braces & Punctuation",
+      "scope": "punctuation, punctuation.definition, meta.brace, meta.delimiter",
+      "foreground": "#E4564A"
+    },
+    {
+      "name": "Tags & XML",
+      "scope": "entity.name.tag, support.type.tag, meta.tag, punctuation.definition.tag",
+      "foreground": "#E4564A",
+      "font_style": "bold"
+    },
+    {
+      "name": "Attributes & Property Names",
+      "scope": "entity.other.attribute-name, variable.parameter, variable.other.property",
+      "foreground": "#C08400"
+    },
+    {
+      "name": "Variables & Identifiers",
+      "scope": "variable, identifier, meta.definition.variable",
+      "foreground": "#E8E8E8"
+    },
+    {
+      "name": "Storage Types & Builtins",
+      "scope": "support.type, storage.type.class, storage.type.struct",
+      "foreground": "#A726A4"
+    },
+    {
+      "name": "Invalid / Deprecated",
+      "scope": "invalid, deprecated",
+      "foreground": "#FFFFFF",
+      "background": "#E4564A33",
+      "font_style": "underline"
+    },
+    {
+      "name": "JSON keys",
+      "scope": "meta.structure.dictionary.json support.type.property-name.json",
+      "foreground": "#C08400"
+    },
+    {
+      "name": "Markdown headings",
+      "scope": "markup.heading.markdown, punctuation.definition.heading.markdown",
+      "foreground": "#A726A4",
+      "font_style": "bold"
+    },
+    {
+      "name": "Markdown bold/strong",
+      "scope": "markup.bold.markdown",
+      "font_style": "bold"
+    },
+    {
+      "name": "Markdown italic",
+      "scope": "markup.italic.markdown",
+      "font_style": "italic"
+    }
+  ]
+}
